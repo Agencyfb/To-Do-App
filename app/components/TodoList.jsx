@@ -68,7 +68,7 @@ const TodoList = () => {
           {tasklist.map((task) => (
             <li 
               key={task.id}
-              className="bg-gray-100 border rounded-xl p-4 shadow-sm"
+              className="bg-black-70 border rounded-xl p-4 shadow-sm"
             >
               <h3 
                 className={`text-lg font-semibold ${
