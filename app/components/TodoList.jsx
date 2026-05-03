@@ -39,14 +39,14 @@ const TodoList = () => {
       
       <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-6">
         
-        <h2 className="text-2xl font-bold mb-4 text-center">Todo List</h2>
+        <h2 className="text-2xl font-bold mb-4 text-blue-500 text-center">Todo List</h2>
 
         <input 
           type="text"
           placeholder="Enter what you need"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          className="w-full mb-3 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full text-gray-500 mb-3 px-4 py-2 border rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
 
         <input 
@@ -54,7 +54,7 @@ const TodoList = () => {
           placeholder="Description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
-          className="w-full mb-3 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full text-gray-500 mb-3 px-4 py-2 border rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
 
         <button 
