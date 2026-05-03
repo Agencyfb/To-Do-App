@@ -39,7 +39,7 @@ const TodoList = () => {
       
       <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-6">
         
-        <h2 className="text-2xl font-bold mb-4 text-blue-500 text-center">Todo List</h2>
+        <h2 className="text-2xl font-bold mb-4 text-blue-500 text-center">NovaTech Solutions</h2>
 
         <input 
           type="text"
